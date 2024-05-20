@@ -7,6 +7,7 @@ You can change two things with this script:
 You can just reply with "no" for the default User-Agent: `subdestroyer v1.0`
 
 2. Amount of threads:
+
 ![image](https://github.com/mxntysec/subdestroyer/assets/166342298/3d85c7d9-40bf-412b-9629-bdccdaccf00a)
 
 This script was scripted by mxnty.
