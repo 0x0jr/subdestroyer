@@ -13,3 +13,9 @@ You can just reply with "no" for the default User-Agent: `subdestroyer v1.0`
 This tool was scripted by mxnty.
 
 Usage: `python3 subdestroyer.py http://targeturl.com /path/to/subdirectory/wordlist.txt`
+
+Second way of running subdestroyer:
+
+You can run `chmod +x subdestroyer.py` then `mv subdestroyer.py /usr/bin` if your on linux so that you can just run `http://targeturl.com /path/to/subdirectory/wordlist.txt`
+
+![image](https://github.com/mxntysec/subdestroyer/assets/166342298/712d7062-0737-4683-88e7-7ec582c9443d)
