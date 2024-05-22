@@ -1,21 +1,38 @@
-Description: `subdestroyer is a python script that scans for sub directories in the given url`
+# ✴️ subdestroyer
 
-You can change two things with this script:
-1. Random User Agents:
-![image](https://github.com/mxntysec/subdestroyer/assets/166342298/038bc080-04e4-41f1-baab-fbd8bba40886)
+***Description:***
+***subdestroyer is a Python script that scans for subdirectories in the given URL.***
 
-You can just reply with "no" for the default User-Agent: `subdestroyer v1.0`
+![image](https://github.com/mxntysec/subdestroyer/assets/166342298/73cd8d4a-7ab8-4a8a-b95b-908bb14cc102)
 
-2. Amount of threads:
+# ✨ Features
 
-![image](https://github.com/mxntysec/subdestroyer/assets/166342298/3d85c7d9-40bf-412b-9629-bdccdaccf00a)
+    Random User Agents:
+        You can enable or disable random User-Agent headers.
+        Default User-Agent: subdestroyer v1.0
+        Example:
+        ![image](https://github.com/mxntysec/subdestroyer/assets/166342298/1d95b213-950a-42b2-8e63-81f660393520)
+        To use the default User-Agent, simply reply with "no" when prompted.
 
-This tool was scripted by mxnty.
+    Customizable Number of Threads:
+        Increase or decrease the number of threads to optimize scanning speed.
+        Example:
+        image
 
-Usage: `python3 subdestroyer.py http://targeturl.com /path/to/subdirectory/wordlist.txt`
+# 🛠️ Usage
+Basic Usage
 
-Second way of running subdestroyer:
+`python3 subdestroyer.py http://targeturl.com /path/to/subdirectory/wordlist.txt`
 
-You can run `chmod +x subdestroyer.py` then `mv subdestroyer.py /usr/bin` if your on kali linux so that you can just run `subdestroyer.py http://targeturl.com /path/to/subdirectory/wordlist.txt`
+Advanced Usage
 
-![image](https://github.com/mxntysec/subdestroyer/assets/166342298/712d7062-0737-4683-88e7-7ec582c9443d)
+```Make subdestroyer executable and move it to /usr/bin (Kali Linux example):
+
+chmod +x subdestroyer.py
+sudo mv subdestroyer.py /usr/bin
+subdestroyer.py http://targeturl.com /path/to/subdirectory/wordlist.txt
+```
+
+# 📝 Script Information
+
+***This tool was scripted by mxnty.***
